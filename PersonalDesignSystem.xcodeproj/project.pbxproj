@@ -53,8 +53,7 @@
 		F497F8352CAC77C300825A27 = {
 			isa = PBXGroup;
 			children = (
-				F497F8412CAC77C300825A27 /* PersonalDesignSystem */,
-				F497F84B2CAC77C300825A27 /* PersonalDesignSystemTests */,
+				F497F85F2CAC7CA700825A27 /* Sources */,
 				F497F8402CAC77C300825A27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +90,15 @@
 				F497F8582CAC780300825A27 /* PrimaryButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		F497F85F2CAC7CA700825A27 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F497F8412CAC77C300825A27 /* PersonalDesignSystem */,
+				F497F84B2CAC77C300825A27 /* PersonalDesignSystemTests */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
