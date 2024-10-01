@@ -2,24 +2,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "DesignSystem",
+    name: "PersonalDesignSystem",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "DesignSystem",
-            targets: ["DesignSystem"]
+            name: "PersonalDesignSystem",
+            targets: ["PersonalDesignSystem"]
         ),
     ],
     targets: [
         .target(
-            name: "DesignSystem",
+            name: "PersonalDesignSystem",
             dependencies: []
         ),
         .testTarget(
-            name: "DesignSystemTests",
-            dependencies: ["DesignSystem"]
+            name: "PersonalDesignSystemTests",
+            dependencies: ["PersonalDesignSystem"]
         ),
     ]
 )

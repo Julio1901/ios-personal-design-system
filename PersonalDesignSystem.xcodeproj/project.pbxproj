@@ -53,8 +53,7 @@
 		F497F8352CAC77C300825A27 = {
 			isa = PBXGroup;
 			children = (
-				F497F8412CAC77C300825A27 /* PersonalDesignSystem */,
-				F497F84B2CAC77C300825A27 /* PersonalDesignSystemTests */,
+				F497F85F2CAC7CA700825A27 /* Sources */,
 				F497F8402CAC77C300825A27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +70,7 @@
 		F497F8412CAC77C300825A27 /* PersonalDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				F497F85F2CAC7CA700825A27 /* Sources */,
+				F497F8572CAC77D800825A27 /* Components */,
 				F497F8422CAC77C300825A27 /* PersonalDesignSystem.h */,
 			);
 			path = PersonalDesignSystem;
@@ -96,7 +95,8 @@
 		F497F85F2CAC7CA700825A27 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F497F8572CAC77D800825A27 /* Components */,
+				F497F8412CAC77C300825A27 /* PersonalDesignSystem */,
+				F497F84B2CAC77C300825A27 /* PersonalDesignSystemTests */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
