@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "PersonalDesignSystem",
-            type: .dynamic,  // Habilita a compilação com suporte à evolução da biblioteca
+            type: .dynamic,
             targets: ["PersonalDesignSystem"]
         ),
     ],
@@ -18,7 +18,7 @@ let package = Package(
             name: "PersonalDesignSystem",
             dependencies: [],
             swiftSettings: [
-                .unsafeFlags(["-enable-library-evolution"]) // Habilita a evolução da biblioteca
+                .unsafeFlags(["-enable-library-evolution"]) 
             ]
         ),
         .testTarget(
